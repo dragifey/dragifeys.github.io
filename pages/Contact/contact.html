@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Server - Contact</title>
+	<!-- META TAGS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+
+	<!-- LINKS -->
+	<link rel="stylesheet" href="contact.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+	<!-- JAVASCRIPT -->
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+	<body>
+	
+		<div class="home">
+			<header>
+				<div class="logo">SERVER</div>
+				<div class="menu">
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="#">Forum</a></li>
+						<li><a href="#">Store</a></li>
+						<li><a href="#" target="_blank">Discord</a></li>
+					</ul>
+				</div>
+			</header>
+			<div class="form">
+			<div class="title">
+				<h1>Contact Us</h1>
+				<h2>Fill in the requirement belows in order to contact us! </h2>
+			</div>
+
+			<div class="box">
+				<form action="contact.php" method="post" action="contact.php">	
+					<input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
+					<input type="email" name="email" class="form-control" placeholder="Your E=mail" required><br>
+					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+					<input type="submit" class="form-control submit" value="Send Message">
+				</form>
+			</div>
+		</div>
+
+
+	</body>
+</html>
